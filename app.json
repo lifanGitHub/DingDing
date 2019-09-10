@@ -1,8 +1,36 @@
 {
   "pages": [
-    "pages/index/index"
+
+    "pages/tab1/index/index",
+    "pages/tab2/index/index",
+    "pages/tab3/index/index"
   ],
   "window": {
     "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/tab1/index/index",
+        "icon": "image/icon_component.png",
+        "activeIcon": "image/icon_component_HL.png",
+        "name": "Tab1"
+      },
+      {
+        "pagePath": "pages/tab2/index/index",
+        "icon": "image/icon_API.png",
+        "activeIcon": "image/icon_API_HL.png",
+        "name": "Tab2"
+      },
+      {
+        "pagePath": "pages/tab3/index/index",
+        "icon": "image/icon_biz.png",
+        "activeIcon": "image/icon_biz_HL.png",
+        "name": "Tab3"
+      }
+    ]
   }
 }
