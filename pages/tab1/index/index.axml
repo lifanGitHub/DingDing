@@ -1,3 +1,12 @@
-<view>
-  this is a blank page 1
+<view class="root_view" >
+  <view 
+  style = 'background:{{b_background}}'
+  id = "qwe"
+  class="my1" 
+  onTap="tap1">
+      {{b_text}}
+  </view>
+  <view class="root_view">
+    
+  </view>
 </view>

@@ -1,0 +1,12 @@
+.my1 {
+  background: white;
+  width: 50%;
+  height: 60px;
+}
+
+.root_view {
+  position: fixed;
+  background: #afb4db;
+  width: 100%;
+  height: 100%;
+}

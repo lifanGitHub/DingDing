@@ -1,4 +1,13 @@
 Page({
+  data: {
+    b_text:'First',
+    b_background: 'white'
+  },
+  
+  tap1(){
+      this.setData({b_text:'new' ,b_background : '#89dcf8'})
+  },
+
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
