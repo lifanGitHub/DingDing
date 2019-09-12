@@ -5,7 +5,15 @@ Page({
   },
   
   tap1(){
-      this.setData({b_text:'new' ,b_background : '#89dcf8'})
+    this.setData({b_text:'new' ,b_background : '#89dcf8'})
+    dd.getAuthCode({
+    success:(res)=>{
+      dd.alert({content: res.authCode})
+    },
+    fail: (err)=>{
+      dd.alert({content: JSON.stringify(err)})
+    }
+})
   },
 
   onLoad(query) {

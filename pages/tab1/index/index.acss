@@ -5,8 +5,38 @@
 }
 
 .root_view {
-  position: fixed;
+  display: flex;
   background: #afb4db;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 200rpx;
+}
+
+.flex_t{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#btn_get_code{
+  margin-top: 40rpx;  
+}
+
+#b1,#b2,#b3{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  background: #afb4db;
+  text-align: center;
+}
+
+#b4{
+  position: absolute;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  background: #afb4db;
+  text-align: center;
 }
