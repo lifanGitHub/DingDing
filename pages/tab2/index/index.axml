@@ -1,3 +1,4 @@
-<view>
-  this is a blank page 2
+<view class="page">
+  <button size="default" type="primary" onTap="show">显示网络图片</button>
+  <image mode="widthFix" src= "{{image_src}}" id="img"/>
 </view>
