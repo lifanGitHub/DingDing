@@ -1,3 +1,8 @@
-<view>
-  this is a blank page 3
+<view class="page">
+  <view a:for={{array}} >
+    <view class="item_root"  onTap="itemTag" data-index={{index}}>
+        <view>{{item.name}}</view>
+        <view>aloha+ {{index}}</view>
+    </view>
+  </view>
 </view>

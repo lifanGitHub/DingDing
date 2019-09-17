@@ -1,7 +1,36 @@
 Page({
+    data: {
+    array : [ ]
+  },
+
+  itemTag(e) {
+    console.log(e);
+    // dd.showToast({
+    //   content: `第${e.currentTarget.dataset.index}个Item`,
+    //   success: (res) => {
+
+    //   },
+    // });
+  },
+
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    var that = this;
+    var arr = new Array();
+    var i;
+    for(i=0;i<10;i++){
+      var txt = "index " + i;
+      var temp = { name: txt }
+      arr.push(temp);
+    }
+    this.setData({
+      array: arr
+    })
+
+
+    
+
   },
   onReady() {
     // 页面加载完成
