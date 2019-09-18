@@ -1,9 +1,9 @@
 {
   "pages": [
-
+    "pages/tab3/index/index",
     "pages/tab1/index/index",
-    "pages/tab2/index/index",
-    "pages/tab3/index/index"
+    "pages/tab2/index/index"
+
   ],
   "window": {
     "defaultTitle": "My App"
