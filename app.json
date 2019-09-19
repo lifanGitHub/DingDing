@@ -6,12 +6,12 @@
 
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "联动"
   },
   "tabBar": {
     "textColor": "#404040",
     "selectedColor": "#108ee9",
-    "backgroundColor": "#F5F5F9",
+    "backgroundColor": "#FFFFFF",
     "items": [
       {
         "pagePath": "pages/tab1/index/index",

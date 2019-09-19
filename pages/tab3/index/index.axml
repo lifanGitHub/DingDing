@@ -21,11 +21,13 @@
       <!-- item 实际内容-->
       <view class="item_content">
         <!-- item 第一行内容 -->
-        <!-- <view class="item_1">
-         <view id="item_icon" />
-
-        </view> -->
-
+        <view class="item_content_1">
+          <view class="item_icon" />
+          <view class="item_title">交通</view>
+          <view class="item_time">2019.09.19 12:00</view>
+          <view class="item_state">已签收</view>
+        </view>
+        <!-- 地址 -->
       </view>
 
         <!-- <view>{{item.name}}</view>

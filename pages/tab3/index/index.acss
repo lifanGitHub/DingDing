@@ -13,23 +13,49 @@
 .item_content{
   width: 100%;
   height: 100%;
-  background: yellowgreen;
+  /* background: yellowgreen; */
   margin: 42rpx 22rpx 0rpx 35rpx;
 }
 
-.item_1{
-  height: 42rpx ;
+.item_content_1{
+  height: 36rpx ;
   width :750rpx;
-  background: yellow;
+  /* background: yellow; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
-#item_icon{
+.item_icon{
+  margin-bottom: 7rpx;
   border-radius: 50%;
   background: red;
-  width: 11rpx;
-  height: 11rpx;
+  width: 24rpx;
+  height: 24rpx;
+  justify-content: center;
+}
+
+.item_title{
+  margin-left: 12rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.item_time{
+  margin-left: 12rpx;
+  font-size: 24rpx;
+}
+
+.item_state{
+  border: 2rpx solid red;
+  margin-left: 250rpx;
+  height: 36rpx;
+  width: 100rpx;
+  line-height: 36rpx;
+  text-align: center;
+  flood-color: red;
+  border-radius: 8rpx;
+  font-size: 24rpx;
 }
 
 .filter_root{
