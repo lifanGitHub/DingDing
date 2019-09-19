@@ -1,8 +1,37 @@
 <view class="page">
+  <!-- title -->
+  <view class="title">
+    <view>警情中心</view>
+  </view>
+
+  <!-- 筛选 -->
+  <view class="filter_root">
+    <view style="width: 450rpx"></view>
+    <checkbox-group onChange="onChange" name="libs">
+      <!-- <checkbox value="showOff" style="width: 25rpx; height: 25rpx"/> -->
+      <checkbox value="showOff"/>
+    </checkbox-group>
+    <view class="filter_tex" style="font-size: 28rpx">仅显示未签收警情</view>
+  </view>
+
+
   <view a:for={{array}} >
-    <view class="item_root"  onTap="itemTag" data-index={{index}}>
-        <view>{{item.name}}</view>
+    <!-- item -->
+    <view class="item_root" onTap="itemTag" data-index={{index}}>
+      <!-- item 实际内容-->
+      <view class="item_content">
+        <!-- item 第一行内容 -->
+        <!-- <view class="item_1">
+         <view id="item_icon" />
+
+        </view> -->
+
+      </view>
+
+        <!-- <view>{{item.name}}</view>
         <view>aloha+ {{index}}</view>
+        <view class="confirm" onTap="itemTag0" data-index={{index}}></view> -->
     </view>
+    <view class="line"/>
   </view>
 </view>
