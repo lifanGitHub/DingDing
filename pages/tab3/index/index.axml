@@ -28,6 +28,9 @@
           <view class="item_state">已签收</view>
         </view>
         <!-- 地址 -->
+        <view class="item_end">杭州市滨江区吉利大厦</view>
+        <!-- 原因 -->
+        <view class="item_end">危险驾驶</view>
       </view>
 
         <!-- <view>{{item.name}}</view>

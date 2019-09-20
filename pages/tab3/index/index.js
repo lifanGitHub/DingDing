@@ -3,23 +3,16 @@ Page({
     array : [ ]
   },
 
-  show_off(e) {
-    console.log(`tag`);
-    // dd.showToast({
-    //   content: `第${e.currentTarget.dataset.index}个Item`,
-    //   success: (res) => {
-
-    //   },
-    // });
-  },
-
   onChange(e) {
     console.log(e);
   },
 
-
   itemTag(e) {
     console.log(`father`);
+    dd.navigateTo({
+      url: '../check/index'
+    })
+
     dd.showToast({
       content: `第${e.currentTarget.dataset.index}个Item`,
       success: (res) => {
@@ -28,15 +21,15 @@ Page({
     });
   },
 
-  itemTag0(e) {
-    console.log('child');
-    dd.showToast({
-      content: `第${e.currentTarget.dataset.index}个红圈被选中`,
-      success: (res) => {
+  // itemTag0(e) {
+  //   console.log('child');
+  //   dd.showToast({
+  //     content: `第${e.currentTarget.dataset.index}个红圈被选中`,
+  //     success: (res) => {
 
-      },
-    });
-  },
+  //     },
+  //   });
+  // },
 
   onLoad(query) {
     // 页面加载
