@@ -12,7 +12,7 @@
   margin: 42rpx 22rpx 0rpx 35rpx;
 }
 
-.item_content_1{
+.item_content_1{ 
   height: 36rpx;
   width :100%;
   display: flex;
@@ -23,7 +23,7 @@
 .item_icon{
   margin-bottom: 7rpx;
   border-radius: 50%;
-  background: #9FCF68;
+  /* background: #9FCF68; */
   width: 24rpx;
   height: 24rpx;
   justify-content: center;
@@ -47,8 +47,8 @@
   width: 100rpx;
   line-height: 36rpx;
   text-align: center;
-  color: #9FCF68;
-  border-color: #9FCF68;
+  /* color: #9FCF68;
+  border-color: #9FCF68; */
   border-radius: 8rpx;
   font-size: 24rpx;
 }

@@ -22,15 +22,17 @@
       <view class="item_content">
         <!-- item 第一行内容 -->
         <view class="item_content_1">
-          <view class="item_icon" />
-          <view class="item_title">交通</view>
-          <view class="item_time">2019.09.19 12:00</view>
-          <view class="item_state">已签收</view>
+          <view class="item_icon" style = "background:{{item.color}}"/>
+          <view class="item_title">{{item.title}}</view>
+          <view class="item_time">{{item.time}}</view>
+          <view class="item_state" style = "color:{{item.color}};border-color: {{item.color}}"
+            >{{item.state}}
+          </view>
         </view>
         <!-- 地址 -->
-        <view class="item_end">杭州市滨江区吉利大厦</view>
+        <view class="item_end">{{item.address}}</view>
         <!-- 原因 -->
-        <view class="item_end">危险驾驶</view>
+        <view class="item_end">{{item.reason}}</view>
       </view>
 
         <!-- <view>{{item.name}}</view>

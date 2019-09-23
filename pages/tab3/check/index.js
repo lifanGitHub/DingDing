@@ -1,7 +1,6 @@
 Page({
   data: {
-    b_text:'First',
-    b_background: 'white'
+    
   },
   
   onLoad(query) {
