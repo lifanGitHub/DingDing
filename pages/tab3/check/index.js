@@ -1,17 +1,8 @@
 Page({
   data: {
-    image_src : ""
+    
   },
-  show(){
-    this.setData({image_src:"http://img0.pconline.com.cn/pconline/1712/27/10593085_51250_thumb.jpg"})
-    // var i;
-    // for(i = 0; i < 99; i++){
-    //   console.info("log",i);
-    // }
-  },
-
-
-
+  
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);

@@ -1,7 +1,45 @@
 Page({
+    data: {
+    array : [ ]
+  },
+
+  onChange(e) {
+    console.log(e);
+  },
+
+  itemTag(e) {
+    console.log(`father`);
+    dd.navigateTo({
+      url: '../check/index'
+    })
+
+    dd.showToast({
+      content: `第${e.currentTarget.dataset.index}个Item`,
+      success: (res) => {
+
+      },
+    });
+  },
+
   onLoad(query) {
     // 页面加载
-    console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    // console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    var that = this;
+    var arr = new Array();
+    var i;
+    for(i=0;i<10;i++){
+      var txt = "index " + i;
+      var temp = { title: "交通", color:"#9FCF68" ,time:"2019.09.19 12:00",address:"杭州市滨江区吉利大厦",
+      state:"已签收",reason:"危险驾驶"}
+      arr.push(temp);
+    }
+    this.setData({
+      array: arr
+    })
+
+
+    
+
   },
   onReady() {
     // 页面加载完成

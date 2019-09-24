@@ -1,0 +1,13 @@
+<view class="root_page">
+  <view class="confirm_page" >
+    <view class="div_1">
+        <view class="div_icon">新</view>
+        <view class="item_title">交通</view>
+    </view>
+    <view class="line"/>
+    <view class="item">派单时间: 2019.09.09 12.00</view>
+    <view class="item">警情地址: 杭州市滨江区吉利大厦</view>
+    <view class="item">警情内容: 危险驾驶</view>
+    <button class="confirm" size="default" type="primary">签收</button>
+  </view>
+</view>  

@@ -1,0 +1,71 @@
+.root_page{
+  width: 750rpx;
+  height: 100vh;/*lf! 全屏幕*/
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.confirm_page{
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  height: 600rpx;/*545*/
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.div_1{
+  width: 100%;
+  height: 145rpx;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div_icon{
+  background: #D33838;
+  width: 120rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: white;
+  /* font-weight: 700; */
+  border-radius: 0rpx 40rpx 40rpx 0rpx;
+  font-size: 40rpx;
+}
+
+.item_title{
+  margin-left: 24rpx;
+  color: #333333;
+  font-weight: 700;
+}
+
+.line{
+  height: 2rpx;
+  width: 100%;
+  background: #F5F5F5;
+}
+
+.item{
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+  height: 88rpx;
+  /* width: 100%; */
+  margin-left: 48dp;
+  margin-right: 48dp;
+
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.confirm{
+  margin-top: 56rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+}

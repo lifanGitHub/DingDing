@@ -1,12 +1,38 @@
-page {
-  background-color: #F7F7F7;
-  border: 1px solid rgba(0,0,0,0);
-  box-sizing: border-box;
-}
-
 .page {
   font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
   font-size: 24rpx;
-  padding: 32rpx;
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 32rpx; */
+  /* flex: 1; */
+}
+
+.title{
+  height: 84rpx;
+  width: 750rpx;
+  background: white;
+  line-height: 84rpx;  /** 垂直居中 **/ 
+  text-align: center;   /** 水平居中 **/ 
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.page-section-btns {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-section-btns > view {
   flex: 1;
+  height: 84rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #49a9ee;
+}
+.page-section-btns > view + view {
+  border-left: 1px solid #ddd;
 }
