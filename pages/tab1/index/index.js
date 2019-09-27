@@ -1,24 +1,68 @@
 Page({
   data: {
     b_text:'First',
-    b_background: 'white'
+    b_background: 'white',
+    // circles: [{radius: 100,latitude:'30.279383',longitude:'120.131441'}]
+    // circles: [{
+    //   latitude: 30.279383,
+    //   longitude: 120.131441,
+    //   color: '#FF0000DD',
+    //   fillColor: '#7cb5ec88',
+    //   radius: 100,
+    //   strokeWidth: 2
+    // }]
+    circles: []
   },
   
   tap1(){
-    this.setData({b_text:'new' ,b_background : '#89dcf8'})
+    console.info("qq","qq");
+    //
+    // dd.device.geolocation.get({
+    //   targetAccuracy : 200,
+    //   coordinate : 1,
+    //   withReGeocode : false,
+    //   useCache:true,
+    //   onSuccess : function(result) {
+    //     console.info("",result);
+    //   },
+    //   onFail : function(err) {}
+    // });
+
+
+    // this.setData({b_text:'new' ,b_background : '#89dcf8'})
     dd.getAuthCode({
-    success:(res)=>{
-      dd.alert({content: res.authCode})
-    },
-    fail: (err)=>{
-      dd.alert({content: JSON.stringify(err)})
-    }
-})
+      success:(res)=>{
+       dd.alert({content: res.authCode})
+     },
+      fail: (err)=>{
+        dd.alert({content: JSON.stringify(err)})
+     }
+    })
   },
 
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    // var amapFile = require('./toamap-wx.js');//如：..­/..­/libs/amap-wx.js
+    // var s = [{
+    //   latitude: 30.279383,
+    //   longitude: 120.131441,
+    //   color: '#FF0000DD',
+    //   fillColor: '#7cb5ec88',
+    //   radius: 100,
+    //   strokeWidth: 2
+    // }];
+    // this.setData({
+    //   circles : [{
+    //   latitude: 30.279383,
+    //   longitude: 120.131441,
+    //   color: '#FF0000DD',
+    //   fillColor: '#7cb5ec88',
+    //   radius: 100,
+    //   strokeWidth: 2
+    // }]
+    // });
+
   },
   onReady() {
     // 页面加载完成

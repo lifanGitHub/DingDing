@@ -1,15 +1,10 @@
 <view class="page" >
-  <!-- <view 
-    style = 'background:{{b_background}}'
-    id = "qwe"
-    class="my1" 
-    onTap="tap1">
-    {{b_text}}
-  </view> -->
-  <view class="flex_t">
+  <!-- <view class="flex_t">
     <view id = "b1"class="t1">第一个</view>
     <view id = "b2">第二个</view>
     <view id = "b3">第三个</view>
-  </view>
-  <button size="default" type="primary" onTap="tap1" id = "btn_get_code">获取AuthCode</button>
+  </view> -->
+  <!-- <button size="default" type="primary" onTap="tap1" id = "btn_get_code">获取AuthCode</button> -->
+  <map longitude="120.131441" latitude="30.279383" show-location="{{true}}" circles="{{circles}}"></map>
+  <!-- <map longitude="120.131441" latitude="30.279383" show-location="{{true}} circles="{{circles}}" class="GDmap"></map> -->
 </view>

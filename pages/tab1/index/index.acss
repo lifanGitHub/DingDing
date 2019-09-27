@@ -1,14 +1,7 @@
 .my1 {
   background: white;
   width: 50%;
-  height: 60px;
-}
-
-.root_view {
-  display: flex;
-  background: #afb4db;
-  width: 50%;
-  height: 200rpx;
+  height: 60rpx;
 }
 
 .flex_t{
@@ -30,13 +23,12 @@
   text-align: center;
 }
 
-#b4{
-  position: absolute;
-  margin-top: 10rpx;
-  margin-left: 20rpx;
-  width: 200rpx;
-  height: 200rpx;
-  line-height: 200rpx;
-  background: #afb4db;
-  text-align: center;
+#net_image{
+  width: 100%;
+  height: 400rpx;
+}
+
+.GDmap{
+  width: 100vh;
+  height: 100vh;
 }
