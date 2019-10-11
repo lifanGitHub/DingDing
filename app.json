@@ -1,11 +1,13 @@
 {
   "pages": [
+        "pages/login/index",
+    "pages/tab3/JQInfo/JQInfo",
 
     "pages/tab3/index/index",
     "pages/tab3/check/index",
-    "pages/tab1/index/index",
-    "pages/tab2/index/index"
-
+    "pages/tab1/map/map",
+    "pages/tab2/index/index",
+    "pages/tab3/JQInfo/JQInfo"
   ],
   "window": {
     "defaultTitle": "联动"
@@ -16,7 +18,7 @@
     "backgroundColor": "#FFFFFF",
     "items": [
       {
-        "pagePath": "pages/tab1/index/index",
+        "pagePath": "pages/tab3/index/index",
         "icon": "image/icon_component.png",
         "activeIcon": "image/icon_component_HL.png",
         "name": "Tab1"
@@ -28,7 +30,7 @@
         "name": "Tab2"
       },
       {
-        "pagePath": "pages/tab3/index/index",
+        "pagePath": "pages/tab1/map/map",
         "icon": "image/icon_biz.png",
         "activeIcon": "image/icon_biz_HL.png",
         "name": "Tab3"
